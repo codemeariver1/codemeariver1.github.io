@@ -7,7 +7,8 @@
 
     /*========== Colors ==========*/
     /* Change favorite color */
-    --hue-color: 190; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    --hue-color: 260; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+    /*Fav1: 190, Fav2: */
 
     /* HSL color mode */
     --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -273,6 +274,18 @@ img{
     gap: 1rem;
 }
 
+.holiday__img{
+    position: absolute;
+    left: 38%;
+    top: 3%;
+    /*bottom: 75%;*/
+    width: 70%;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+    transform: rotate(10deg);
+}
+
 .home__content{
     grid-template-columns: .5fr 3fr;
     padding-top: 3.5rem;
@@ -506,27 +519,27 @@ img{
 }
 
 .skills__html{
-    width: 53%;
+    width: 60%;
 }
 
 .skills__css{
-    width: 53%;
+    width: 60%;
 }
 
 .skills__js{
-    width: 53%;
+    width: 56%;
 }
 
 .skills__java{
-    width: 72%;
+    width: 80%;
 }
 
 .skills__c{
-    width: 64%;
+    width: 72%;
 }
 
 .skills__cpp{
-    width: 40%;
+    width: 48%;
 }
 
 .skills__python{
@@ -1082,6 +1095,10 @@ img{
         grid-column: initial;
     }
 
+    .holiday__img{
+        top: 260px;
+    }
+
     .home__img{
         order: 1;
         justify-self: center;
@@ -1179,6 +1196,12 @@ img{
 
     .about__container{
         column-gap: 5rem;
+    }
+
+    .holiday__img{
+        width: 40%;
+        left: 65%;
+        top: 4%;
     }
 
     .about__img{
