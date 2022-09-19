@@ -274,16 +274,6 @@ img{
     gap: 1rem;
 }
 
-.holiday__img{
-    position: absolute;
-    left: 38%;
-    top: 3%;
-    /*bottom: 75%;*/
-    width: 70%;
-    border-radius: .5rem;
-    transform: rotate(10deg);
-}
-
 .home__content{
     grid-template-columns: .5fr 3fr;
     padding-top: 3.5rem;
@@ -1093,10 +1083,6 @@ img{
         grid-column: initial;
     }
 
-    .holiday__img{
-        top: 260px;
-    }
-
     .home__img{
         order: 1;
         justify-self: center;
@@ -1194,12 +1180,6 @@ img{
 
     .about__container{
         column-gap: 5rem;
-    }
-
-    .holiday__img{
-        width: 40%;
-        left: 65%;
-        top: 4%;
     }
 
     .about__img{
