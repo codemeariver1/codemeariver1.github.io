@@ -281,8 +281,6 @@ img{
     /*bottom: 75%;*/
     width: 70%;
     border-radius: .5rem;
-    justify-self: center;
-    align-self: center;
     transform: rotate(10deg);
 }
 
