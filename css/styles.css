@@ -280,6 +280,16 @@ img{
     align-items: center;
 }
 
+.holiday__img{
+    position: absolute;
+    /*left: 38%;*/
+    right: -5%;
+    top: 3%;
+    /*bottom: 75%;*/
+    width: 70%;
+    transform: rotate(10deg);
+}
+
 .home__social{
     display: grid;
     grid-template-columns: max-content;
@@ -1083,6 +1093,11 @@ img{
         grid-column: initial;
     }
 
+    .holiday__img{
+        right: -30%;
+        top: -2%;
+    }
+
     .home__img{
         order: 1;
         justify-self: center;
@@ -1164,6 +1179,13 @@ img{
     .home__content{
         padding-top: 5.5rem;
         column-gap: 2rem;
+    }
+
+    .holiday__img{
+        width: 40%;
+        /*left: 66%;*/
+        right: -7%;
+        top: 24%;
     }
 
     .home__blob{
@@ -1276,6 +1298,7 @@ img{
         margin-top: 4.5rem;
     }
 }
+
 /* For large devices */
 @media screen and (min-width: 1024px){
     .header,
@@ -1284,6 +1307,11 @@ img{
         padding: 0;
     }
 
+    .holiday__img{
+        width: 35%;
+        right: 2%;
+        top: 15%;
+    }
     .home__blob{
         width: 320px;
     }
