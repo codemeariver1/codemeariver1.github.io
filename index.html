@@ -13,7 +13,7 @@
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="css/styles.css">
 
-        <title>Steven's Portfolio Website</title>
+        <title>Steven's Portfolio</title>
     </head>
 
     <body>
@@ -73,9 +73,9 @@
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
                 <div class="home__container container grid">
-                    <div class="holiday_container">
-                        <img src="img/happy-halloween1.png" alt="" class="holiday__img"><!-- Holiday Image -->
-                    </div>
+                    <!-- <div class="holiday_container">
+                        <img src="img/happy-halloween1.png" alt="" class="holiday__img">
+                    </div> -->
                     
                     <div class="home__content grid">
                         <div class="home__social">
@@ -167,7 +167,7 @@
                         </div>
 
                         <div class="about__buttons">
-                            <a download="" href="pdf/resume_10-15-22.pdf" class="button button--flex">
+                            <a download="" href="pdf/resume_11-09-22.pdf" class="button button--flex">
                                 Download CV<i class="uil uil-download-alt button__icon"></i>
                             </a>
                         </div>
@@ -326,7 +326,7 @@
                 </div>
             </section>
 
-            <!--==================== QUALIFICATION ====================-->
+            <!--==================== QUALIFICATIONS ====================-->
             <section class="qualification section">
                 <h2 class="section__title">Qualifications</h2>
                 <span class="section__subtitle">My personal journey</span>
@@ -676,14 +676,14 @@
             </section>
 
             <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
+            <!-- <section class="testimonial section"> 
                 <h2 class="section__title">Testimonials</h2>
                 <span class="section__subtitle">My clients saying</span>
 
                 <div class="testimonial__container container swiper">
-                    <div class="swiper-wrapper">
+                    <div class="swiper-wrapper"> -->
                         <!--==================== TESTIMONIAL 1 ====================-->
-                        <div class="testimonial__content swiper-slide">
+                        <!-- <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="img/testimonial1.jpeg" alt="" class="testimonial__img">
@@ -707,10 +707,10 @@
                                 out my project with all possible quality and attention and support 
                                 24 hours a day.
                             </p>
-                        </div>
+                        </div> -->
 
                         <!--==================== TESTIMONIAL 2 ====================-->
-                        <div class="testimonial__content swiper-slide">
+                        <!-- <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="img/testimonial2.jpeg" alt="" class="testimonial__img">
@@ -734,10 +734,10 @@
                                 out my project with all possible quality and attention and support 
                                 24 hours a day.
                             </p>
-                        </div>
+                        </div> -->
 
                         <!--==================== TESTIMONIAL 3 ====================-->
-                        <div class="testimonial__content swiper-slide">
+                        <!-- <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                     <img src="img/testimonial3.jpeg" alt="" class="testimonial__img">
@@ -762,12 +762,12 @@
                                 24 hours a day.
                             </p>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Add Pagination -->
-                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                    <!-- <div class="swiper-pagination swiper-pagination-testimonial"></div>
                 </div>
-            </section>
+            </section> -->
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
@@ -842,7 +842,7 @@
                 <div class="footer__container container grid">
                     <div>
                         <h1 class="footer__title">Steven</h1>
-                        <span class="footer__subtitle">Aspiring Software Engineer</span>
+                        <span class="footer__subtitle">Software Engineer</span>
                     </div>
 
                     <ul class="footer__links">
@@ -879,9 +879,11 @@
             <i class="uil uil-arrow-up scrollup__icon"></i>
         </a>
 
-        <!--==================== JQUERY & HALLOWEEN-BATS JS ====================-->
+        <!--==================== JQUERY ====================-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="js/halloween-bats.js"></script>
+
+        <!--==================== JQUERY & HALLOWEEN-BATS JS ====================-->
+        <!-- <script src="js/halloween-bats.js"></script>
 
         <script type="text/javascript">
             window.halloweenBats = $.halloweenBats({
@@ -894,6 +896,31 @@
                 speed: 10,
                 zIndex: 15500,
                 target: '#home'
+            })
+        </script> -->
+
+        <!--==================== FLURRY JS ====================-->
+        <script src="js/jquery.flurry.js"></script>
+
+        <script type="text/javascript">
+            $('body').flurry({
+                character: "❄",
+                color: "#088FFA",
+                frequency: 100,
+                speed: 3000,
+                small: 8,
+                large: 28,
+                wind: 40,
+                windVariance: 20,
+                rotation: 90,
+                rotationVariance: 180,
+                startOpacity: 1,
+                endOpacity: 0,
+                opacityEasing: "cubic-bezier(1,.3,.6,.74)",
+                blur: true,
+                overflow: "hidden",
+                zIndex: 9999,
+                height: 820,
             })
         </script>
 
