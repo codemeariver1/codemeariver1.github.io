@@ -1,6 +1,6 @@
-/pdf/*
-!pdf/resume_08-23-23.pdf
-/img/*
+pdf/*
+!pdf/resume_23-11-29.pdf
+img/*
 !img/happy-halloween1.png
 !img/steven2.png
 !img/steven3.png
@@ -9,5 +9,6 @@
 !img/FoodRecommender-prev-img.png
 !img/ecommerce-web-app-prev-img.png
 !img/uber-clone-blockchain-prev-img.png
+!img/commutervision-prev-img.jpg
 !img/will-smith.png
 !img/bats.png
